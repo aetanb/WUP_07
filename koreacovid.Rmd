@@ -78,4 +78,5 @@ After observing the inferential results, I concluded that the odds of a man to d
 
 ## Conclusions
 
-
+In this assignment I analyzed the data of COVID in South Korea. Since I recognized that the act of dying or living and being male or female are both categorical, I determined to use the categorical-categoricla helper file to guide me through this. In the graphical results I was bale to do a chart with gg plot and observed that deceased men are exceedingly higher than deceased women. The number which men die to covid compared to men is about a 2:1 ratio. 2/3 of the dead people were men. I also observed that the number of people alive is much larger than the amount of people dead. Most of the alive people were woman (about 57%) compared to men (43%). In the numerical category, the results supported the previous results due to recording percentage and not count. The numerical results display the percentage of people that caught covid and either lived or dies. 1.4% of females that caught covid passed away and 3% of males that caught covid passed away. And the inferential results helped me calculate the odds and difference in odds of a male dying to covid compared to a female dying to covid.  
+ 
