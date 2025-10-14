@@ -64,7 +64,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+The numerical results display the percentage of people that caught covid and either lived or dies. 1.4% of females that caught covid passed away and 3% of males that caught covid passed away.
 
 ## Inferential results 
 
@@ -74,7 +74,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-After observing the inferential results, I concluded that the odds of a man to die to covid in South Korea are 2.3% greater than the odds of a female dying to covid in South Korea. This supports the previous results because we saw that the mortality rate to covid was higher in men. I also noticed that the p_value is extremely low at a value of 0.0009 thus meaning the chances of dying to COVID as a male is higher than a female's chance. 
+After observing the inferential results, I concluded that the odds of a man to die to covid in South Korea are 2.3% greater than the odds of a female dying to covid in South Korea. This supports the previous results because we saw that the mortality rate to covid was higher in men. I also noticed that the p_value is extremely low at a value of 0.0009 thus meaning the chances of dying to COVID as a male is higher than a female's chance.
 
 ## Conclusions
 
