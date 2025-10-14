@@ -50,13 +50,20 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
   
-By looking at the graphical plot, I noticed that deceased men are exceedingly higher than deceased women. The number which men die to covid compared to men is about a 2:1 ratio. 2/3 of the dead people were men. I also observed that the number of people alive is much larger than the amount of people dead. Most of the alive people were woman whereas most of the dead people were men. 
+By looking at the graphical plot, I noticed that deceased men are exceedingly higher than deceased women. The number which men die to covid compared to men is about a 2:1 ratio. 2/3 of the dead people were men. I also observed that the number of people alive is much larger than the amount of people dead. Most of the alive people were woman (about 57%) compared to men (43%). 
 
 
 
 
   
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
 
 
 ## Inferential results 
